@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top{
+   display: flex;
+   background-color: black;
+   color: aliceblue;
+   justify-content: center;
+   align-items: center;
+   gap: 200px;
+   height:50px;
+}
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+.link-btn{
+    color: slategray;
+}
+main .container{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 60px auto;
+}
+/* main{
+    height: 100vh;
+} */
+.btn-hero{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+.click{
+    display: flex;
+    justify-content: center;
+}
